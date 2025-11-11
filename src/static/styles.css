@@ -173,6 +173,22 @@ footer {
   font-size: 14px;
 }
 
+/* Small delete/unregister button placed next to participant name */
+.participant-delete {
+  margin-left: 6px;
+  background: transparent;
+  border: none;
+  color: #b00020;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 6px;
+  line-height: 1;
+}
+.participant-delete:hover {
+  background-color: rgba(176, 0, 32, 0.08);
+}
+
 .avatar {
   width: 28px;
   height: 28px;
